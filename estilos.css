@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,100;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif !important;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+.containerMaster {
+    background: url('./media/FONDO.png');
+    background-repeat: repeat;
+    background-attachment:local;
+    margin: auto;
+    height: auto;
+}
+
+header{
+    padding: 10% 0 2% 0;
+}
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width:90%;
+}
+
+.logoQr {
+    background-color: black;
+    
+}
+.logoQR{
+    color: aliceblue;
+    margin: 0 auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.qr {
+    width: 30%;
+}
+.qr img {
+    width: 100%;
+}
+.contenedorNombre {
+    font-family: 'Lato', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.botonTrabajos{
+} */
+
+.nombre h1{
+    font-weight: 900;
+    font-size:2.5rem;
+    letter-spacing: 2px;
+}
+.matricula h3{
+    font-size: larger;
+    letter-spacing: 2px;
+}
+/* .botonTrabajos h3 {
+  
+} */
+
+.contenido {
+    margin:auto;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+}
+.elemento1 {
+    font-size:2rem
+}
+.final{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    flex-basis: auto;
+}
+.final span {
+    margin: 5% 0 5% 0;
+}
