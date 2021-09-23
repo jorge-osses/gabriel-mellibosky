@@ -48,31 +48,30 @@ header{
     margin: 0 auto;
 }
 .contenedorNombre {
-    width: 70%;
+    width: 75%;
     font-family: 'Lato', sans-serif;
     margin: 0 auto;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.contenedorNombre .divNombre{
-    padding-left: 2%;
-}
+
 .nombre{
     font-weight: 900;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 .matricula {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 1.5px;
 }
 .botonTrabajos {
-    padding-left:2%;
-    font-size:medium;
-    width: 100%;
+    font-size:0.8rem;
+    width: 80%;
     outline: none;
     display: flex;
 }
+
 .buttonUno{
     cursor: pointer;
     font-weight: 900;
@@ -105,12 +104,14 @@ header{
     flex-direction: column;
     justify-content: space-around;
     height: auto;
-    border-bottom:solid 3px #d4850f;
 }
 .elementoUno {
-    font-size:1.5rem;
+    font-size:1rem;
     border-top: solid 3px #d4850f;
 
+}
+p .dos{
+    border-bottom:solid 3px #d4850f;
 }
 .final{
     width:100%;
