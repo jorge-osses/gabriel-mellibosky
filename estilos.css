@@ -42,7 +42,6 @@ header{
 }
 .qr {
     width: 30%;
-    border: solid 1px white;
 }
 .qr img {
     width: 100%;
@@ -61,7 +60,7 @@ header{
 }
 .nombre{
     font-weight: 900;
-    font-size:2.5rem;
+    font-size:2rem;
 }
 .matricula {
     font-size: 2rem;
@@ -92,6 +91,10 @@ header{
     outline: none;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
 }
 
 .table {
