@@ -9,14 +9,8 @@ html{
 }
 body {
     font-family: 'Lato', sans-serif;
-    padding: 10px;
-}
-.containerMaster {
     background: url('./media/FONDO.png');
     background-repeat: repeat;
-    background-attachment:local;
-    margin: auto;
-    height: auto;
 }
 
 header{
@@ -32,7 +26,8 @@ header{
 
 .logoQr {
     background-color: black;
-    padding: 20px 0;    
+    padding: 10px 0;
+    width: 100%;
 }
 .logoQR{
     color: aliceblue;
@@ -108,11 +103,9 @@ header{
 .elementoUno {
     font-size:1rem;
     border-top: solid 3px #d4850f;
-
-}
- .dos{
     border-bottom:solid 3px #d4850f;
 }
+
 .final{
     display:flex;
     flex-direction: column;
@@ -122,6 +115,7 @@ header{
     margin-top:10px;
     width: 75%;
     display: flex;
+    text-decoration: none;
 }
 .elementoDos button{
     display: inline-block;
