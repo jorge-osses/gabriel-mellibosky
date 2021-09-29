@@ -12,7 +12,14 @@ body {
     background: url('./media/FONDO.png');
     background-repeat: repeat;
 }
-
+a{
+    text-decoration: none;
+}
+.volver{
+    font-family:inherit;
+    font-weight: bold;
+    color: rgb(51, 40, 27);
+}
 header{
     padding: 10% 0 2% 0;
 }
@@ -54,15 +61,18 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 60%;
 }
 
 .nombre{
     font-weight: 900;
     font-size:1.3rem;
+    width: 100%;
 }
 .matricula {
     font-size: 1rem;
     letter-spacing: 1.2px;
+    width: 100%;
 }
 .botonTrabajos {
     font-family: 'Lato', sans-serif;
@@ -123,7 +133,7 @@ header{
 }
 .final .elementoDos{
     margin-top:10px;
-    width: 80%;
+    width: 100%;
     transition: 120ms;
     display: flex;
     text-decoration: none;
@@ -152,4 +162,35 @@ header{
 }
 .footer p{
     font-size: small;
+}
+@media(min-width: 700px) {
+    .nombre, .matricula{
+        font-size: 2rem;
+    }
+    .qr img{
+        width: 90%;
+    }
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;    
+    }
+}
+@media(min-width: 1020) {
+    .elementoDos button{
+        height: 90%;
+    }
+    header{
+        padding: 0;
+        top: 0;
+    }
+    .logo img{
+        width: 90%;
+    }
+    .nombre, .matricula{
+        font-size: 100%;
+    }
+    .container {
+        padding-left: 30%;
+        padding-right: 30%;    
+    }
 }
