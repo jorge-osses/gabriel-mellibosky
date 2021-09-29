@@ -66,17 +66,15 @@ header{
 
 .nombre{
     font-weight: 900;
-    font-size:1.3rem;
-    width: 100%;
+    font-size:1.2rem;
 }
 .matricula {
     font-size: 1rem;
     letter-spacing: 1.2px;
-    width: 100%;
 }
 .botonTrabajos {
     font-family: 'Lato', sans-serif;
-    font-size:0.9rem;
+    font-size:0.8rem;
     outline: none;
     display: flex;
     border-radius: 8px;
@@ -166,6 +164,7 @@ header{
 @media(min-width: 700px) {
     .nombre, .matricula{
         font-size: 2rem;
+        width: 100%;
     }
     .qr img{
         width: 90%;
