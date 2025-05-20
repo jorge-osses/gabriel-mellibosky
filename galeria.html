@@ -28,9 +28,9 @@
     <title>Galeria</title>
 </head>
 <body>
-<div class="gallery-container">
-<div id="AlbunElectrosur"></div>
-</div>
+    <div class="gallery-container">
+        <div id="AlbunElectrosur"></div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async defer></script>
     <script>
@@ -42,7 +42,7 @@
             PublicAlbum.embed({
                 root: '#AlbunElectrosur',
                 url: googlePhotosAlbumUrl,
-                layout: 'grid', // Puedes probar 'slideshow', 'columns', 'grid'
+                layout: 'slideshow', // Puedes probar 'slideshow', 'columns', 'grid'
                 // Otras opciones disponibles:
                 // title: 'Mi Álbum de Fotos',
                 // hideTitle: false,
