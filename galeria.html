@@ -96,7 +96,7 @@
             } else {
                 // Si PublicAlbum no está listo, reintenta después de un breve momento
                 console.warn("PublicAlbum aún no está disponible. Reintentando...");
-                setTimeout(initPublicAlbum, 100); // Reintenta cada 100 milisegundos
+                setTimeout(initPublicAlbum, 1000); // Reintenta cada 1 segundo
             }
         }
 
